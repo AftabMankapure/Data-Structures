@@ -1,7 +1,7 @@
 //Deletion of array elements using same array :
                                             // 1.  from start of array
                                             // 2.  from end of array
-                                            // 3.  from specific elements of array
+                                            // 3.  from specific elements of arra
 package Deletion_of_elements;
 
 import java.util.Arrays;
@@ -65,3 +65,22 @@ public class usingSameArrayDeletion {
 
     }
 }
+
+/*
+Output:
+Enter length of array :
+5
+Enter 5 array elements:
+11
+22
+33
+44
+55
+Your array before deletion :[11, 22, 33, 44, 55]
+Array After delete  last element of array  :[11, 22, 33, 44, 0]
+Array After delete  first element of array  :[22, 33, 44, 0, 0]
+Enter elements which want ro delete :
+33
+[22, 44, 0, 0, 0]
+
+ */
